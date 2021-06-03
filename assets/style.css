@@ -9,8 +9,22 @@ body{
 /*********************
         Header
 **********************/
+.logo{
+        font-family: 'Lato', sans-serif;
+}
 
-
+.nav-menu-items{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 200;
+}
+.nav-menu-items:hover{
+        font-size: 24px;
+        font-weight: 500;
+}
+.v-bar{
+        padding-right:5px;
+        border-right: solid 1px black;
+}
 /*********************
         Footer
 **********************/
