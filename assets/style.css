@@ -9,13 +9,10 @@ body{
 /*********************
         Header
 **********************/
-.logo{
-        font-family: 'Lato', sans-serif;
-}
-
 .nav-menu-items{
         font-family: 'Roboto', sans-serif;
         font-weight: 200;
+        color: black;
 }
 .nav-menu-items:hover{
         font-size: 24px;
@@ -28,7 +25,15 @@ body{
 /*********************
         Footer
 **********************/
-
+.footer-items{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 200;
+        color: black;
+}
+.git:hover{
+        font-size: 24px;
+        font-weight: 500;
+}
 
 /*********************
         About me

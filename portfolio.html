@@ -12,26 +12,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@100;400;500&family=Open+Sans:wght@300;700&family=Roboto:wght@100;500;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom border-secondary py-0 " style="height: 60px;">
-              <a class="navbar-brand bg-secondary px-2 h-100 fs-2 logo" href="index.html">Issouf Kiema</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link text-dark ative py-0 me-0 nav-menu-items v-bar" aria-current="page" href="index.html">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link py-0 me-0 nav-menu-items v-bar" href="portfolio.html">Portfolio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link  py-0 nav-menu-items" href="contact.html">Contact</a>
-                  </li>
-                </ul>
-              </div>
-          </nav>
+    <header class="navbar navbar-expand-lg navbar-light bg-light py-0 border-bottom border-secondary border-1">
+        <div class="container-fluid px-0">
+          <a class="navbar-brand px-2 fs-2" style="background-color: #cccccc; font-family: 'Lato', sans-serif;" href="index.html">Issouf Kiema</a>
+          <button class="navbar-toggler mx-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon px-2"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto ps-2">
+              <li class="nav-item">
+                <a class="nav-link active nav-menu-items v-bar py-0" aria-current="page" href="index.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-menu-items v-bar py-0" style="color:black" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-menu-items py-0" style="color:black" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
     </header>
 
 
@@ -72,15 +72,13 @@
     </main>
 
 
-    <footer class="footer mt-auto py-3 bg-white d-flex">
-        <div>
-            <p>Copyright &COPY; All Rights Reserved </p>
-        </div>
-        <div>
-            <p><a href="https://github.com/walybi"><i class="fab fa-github"></i> Github </a></p>
-        </div>
-        <div>
-            <p>Designed by Issouf Kiema</p>
+    <footer class="footer mt-auto border-top border-5 bg-white" style="height: 50px;">
+        <div class="container-fluid h-100 d-flex flex-row justify-content-between align-items-center mx-0">
+                <p class="mb-0 text-center footer-items">Copyright &COPY; All Rights Reserved </p>
+            
+                <p class="mb-0 text-center footer-items git"><a class="text-decoration-none" style="color: black;" href="https://github.com/walybi"><i class="fab fa-github"></i> Github </a></p>
+            
+                <p class="mb-0 text-center footer-items">Designed by Issouf Kiema</p>
         </div>
     </footer>
     
