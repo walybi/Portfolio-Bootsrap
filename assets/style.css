@@ -60,7 +60,33 @@ body{
 /* ********************
         Portfolio
 **********************/
+.project-image{
+        width: 300px;
+        height: 200px;
+}
+.project-box{
+        position: relative;
+}
+.project-title{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 200;
+        color: black;
+        background-color: #cccccc;
+        height: 40px;
+        width: 300px;
+        position: relative;
+        bottom: 60px;  
+}
 
+.project-title:hover{
+        height: 50px;
+        color: black;
+        font-size: 25px;
+        font-weight: 500;
+}
+.project-rows{
+        max-width: 700px;
+}
 /* @media only screen and (max-width: 720px){
         #portfolio-content {
                 width: 50%;
