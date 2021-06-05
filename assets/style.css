@@ -60,3 +60,9 @@ body{
 /* ********************
         Portfolio
 **********************/
+
+/* @media only screen and (max-width: 720px){
+        #portfolio-content {
+                width: 50%;
+                }
+        } */
